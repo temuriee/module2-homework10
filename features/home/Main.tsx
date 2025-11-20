@@ -10,7 +10,7 @@ const Head = () => {
         return (
           <Link
             key={blog.id}
-            href={`http://localhost:3000/${blog.id}`}
+            href={`https://module2-homework10.vercel.app/${blog.id}`}
             className="border rounded-2xl max-w-[250px] min-h-[300px] bg-black  "
           >
             <h1>Title: {blog.title}</h1>
